@@ -36,4 +36,4 @@ The result is stored in `out` and returned.
 
 ## License
 
-MIT, see [LICENSE.md](http://github.com/mattdesl/camera-project/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE.md](http://github.com/Jam3/camera-project/blob/master/LICENSE.md) for details.
