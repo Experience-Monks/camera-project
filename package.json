@@ -1,6 +1,6 @@
 {
   "name": "camera-project",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "project 3D point into 2D window space",
   "main": "index.js",
   "license": "MIT",
