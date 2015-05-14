@@ -5,10 +5,11 @@
 Projects a 3D world point into 2D window space. 
 
 ```js
+var mat4 = require('gl-mat4')
 var project = require('camera-project')
 
 //projection * view matrix
-var combinedProjView = ...
+var combinedProjView = mat4.multiply([], projection, view)
 
 //viewport bounds
 var viewport = [x, y, width, height]
@@ -33,6 +34,10 @@ The output `z` component contains the window space depth, and `w` is the value o
 Projects the 3D `point` into window space using the `viewport` bounds (screen x, y, width, height) and `combined` matrix (result of multiplying `projection * view` matrices). 
 
 The result is stored in `out` and returned.
+
+## See Also
+
+- [camera-unproject](https://www.npmjs.com/package/camera-unproject)
 
 ## License
 
